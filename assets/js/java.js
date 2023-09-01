@@ -50,4 +50,4 @@ console.log(bil[1].bil);
 //Opgave 5: Objektkopiering
 const copyPerson = Object.assign({}, person, { alder: 38 });
 
-console.log( " alder er ændret fra " + copyPerson.alder + " til " + person.alder + " år. ");
+console.log( " alder er ændret fra " + person.alder + " til " +  copyPerson.alder+ " år. ");
